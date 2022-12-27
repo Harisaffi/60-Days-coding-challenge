@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Compound_Interset
+{
+	public static void main(String args[])
+	{
+		double principle,rate,time,compound_interset;
+		System.out.println("required package have been imported");
+		Scanner sc=new Scanner(System.in);
+		System.out.println("a Scanner object has been define");
+
+		System.out.println("enter a principle number");
+		principle=sc.nextInt();
+
+		System.out.println("enter a interset rate");
+		rate=sc.nextInt();
+
+		System.out.println("enter a time period in year");
+		time=sc.nextInt();
+
+		compound_interset=principle*(math.pow)((1+rate/100).time)) - principle;
+		System.out.println("this compound interset is:"+compound_interset);
+	}
+}
+
+	
